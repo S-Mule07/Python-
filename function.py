@@ -1,4 +1,4 @@
-'''#non parametrized function
+#non parametrized function
 
 def wish():
     print("Hello")
@@ -79,7 +79,7 @@ n = int(input("Enter a number: "))
 if armstrong(n):
     print("The number is an Armstrong number")
 else:
-    print("The number is not an Armstrong number")'''
+    print("The number is not an Armstrong number")
 
 #variable length argument
 
@@ -101,6 +101,6 @@ sum=lambda x,y:x+y
 Total=sum(10,20)
 print(Total)
 
-cube=lambda x:x*x*x
+cube=lambda x:x*x*x     #x**3 we can use this also
 Total=cube(2)
 print(Total)
